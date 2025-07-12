@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Suspense, lazy, Component, ReactNode } from 'react';
+import { Suspense, lazy, Component } from 'react';
+import type {ReactNode} from 'react'
 import Layout from './layout/Layout';
 
 // Lazy loading des pages

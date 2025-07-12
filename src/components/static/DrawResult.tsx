@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Trophy, Calendar, Clock, Users, Ticket, ExternalLink, Copy, Check, Filter, RefreshCw } from 'lucide-react';
+import { Trophy, Calendar, Clock, Ticket, ExternalLink, Copy, Check, Filter, RefreshCw } from 'lucide-react';
 import { api, type WinnerAPI, type LotteryAPI } from '../../services/Api';
 
 interface DrawResultWithLottery extends WinnerAPI {
