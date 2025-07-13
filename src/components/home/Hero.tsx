@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Wallet, X, Copy, Check, AlertCircle, Sparkles } from 'lucide-react';
 import { getWalletInfo } from '../../services/Api';
 
-const TOKEN_MINT_ADDRESS = "7gRCovtjCRPPHRdz22BTZX2WrjJSe9CgMxxfDshjemx9";
+const TOKEN_MINT_ADDRESS = "7qi1pPouJhaQiVoNmnAnGmTaJbs5rXRFZXbQAmPZYehd";
 
 const RPC_ENDPOINT = "https://api.testnet.solana.com";
 const MIN_ELIGIBLE_BALANCE = 10000;
