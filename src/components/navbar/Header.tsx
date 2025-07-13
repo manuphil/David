@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, ExternalLink } from 'lucide-react';
 
-const BALL_TOKEN_MINT = "H7V3zqZV2L5z368uJb1J34796ZmU234tZj29B1j8Q4Q";
+const BALL_TOKEN_MINT = "7qi1pPouJhaQiVoNmnAnGmTaJbs5rXRFZXbQAmPZYehd";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
