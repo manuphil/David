@@ -218,7 +218,7 @@ class LotteryAPIService {
   public accessToken: string | null = null;
 
   constructor() {
-    this.baseUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+    this.baseUrl = import.meta.env.VITE_API_URL || 'https://power-8.onrender.com';
     if (typeof window !== 'undefined') {
       this.accessToken = localStorage.getItem('access_token');
     }
